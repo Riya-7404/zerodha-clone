@@ -1,0 +1,47 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.holdings-container {
+  width: 90%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Table */
+.holdings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Header row lightly colored and subtle font */
+.holdings-table thead tr {
+  background-color: #f9f9f9;
+  font-weight: 500;
+  font-size: 14px;           /* smaller than navbar */
+  color: #555;               /* lighter text color */
+  text-transform: uppercase; /* optional */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Table cells with very light lines */
+.holdings-table th,
+.holdings-table td {
+  border: 1px solid #e0e0e0;
+  padding: 6px;              /* smaller padding */
+  text-align: center;
+  font-size: 13px;           /* smaller font */
+  color: #666;               /* light gray text */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Stock Name column slightly darker for readability */
+.holdings-table th:nth-child(1),
+.holdings-table td:nth-child(1) {
+  color: #444;               /* slightly darker */
+}
+
+/* Hover effect */
+.holdings-table tbody tr:hover {
+  background-color: #fcfcfc;
+}
