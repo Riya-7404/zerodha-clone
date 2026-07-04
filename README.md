@@ -1,37 +1,38 @@
-# 🎓 Student Management System
+# 📈 Zerodha Clone
 
 ## 📖 Project Overview
 
-Student Management System is a Java-based application developed to manage student records efficiently. It allows users to add, update, delete, and view student information.
+Zerodha Clone is a stock trading dashboard inspired by Zerodha. It displays holdings, positions, orders, and portfolio information.
 
 ---
 
 ## 🚀 Features
 
-- Add Student
-- Update Student
-- Delete Student
-- Search Student
-- View Student List
+- Dashboard
+- Holdings
+- Orders
+- Positions
+- Portfolio Summary
+- Responsive UI
 
 ---
 
 ## 🛠 Tech Stack
 
-- Java
-- JDBC
-- MySQL
-- Eclipse / IntelliJ
+- React
+- JavaScript
+- HTML
+- CSS
 
 ---
 
 ## 📁 Project Structure
 
 ```
-Student-Management-System
+zerodha-clone
 │
 ├── src
-├── database
+├── public
 ├── screenshots
 └── README.md
 ```
@@ -40,21 +41,22 @@ Student-Management-System
 
 ## ⚙ Installation
 
-1. Clone repository
+```
+npm install
 
-2. Import into Eclipse or IntelliJ
-
-3. Configure MySQL
-
-4. Run project
+npm start
+```
 
 ---
 
+
+
 ## 📌 Future Improvements
 
-- Login System
-- Attendance Module
-- Report Generation
+- Live Stock API
+- Authentication
+- Charts
+- Portfolio Analytics
 
 ---
 
